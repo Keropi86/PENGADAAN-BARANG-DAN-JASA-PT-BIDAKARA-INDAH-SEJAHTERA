@@ -1,1 +1,92 @@
-index.html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Pengadaan Barang dan Jasa - Referensi LPSE</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f4f4f4; color: #333; }
+        header { background-color: #007bff; color: white; padding: 20px; text-align: center; }
+        h1, h2 { color: #007bff; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; background-color: white; }
+        th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        form { background-color: white; padding: 20px; border-radius: 5px; max-width: 500px; margin: 20px auto; }
+        label { display: block; margin-bottom: 10px; }
+        input, button { width: 100%; padding: 10px; margin-bottom: 10px; }
+        button { background-color: #28a745; color: white; border: none; cursor: pointer; }
+        button:hover { background-color: #218838; }
+        footer { text-align: center; margin-top: 40px; font-size: 12px; color: #666; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sistem Pengadaan Barang dan Jasa</h1>
+        <p>Referensi dari LPSE - Platform Elektronik untuk Pengadaan Publik</p>
+    </header>
+
+    <section>
+        <h2>Pengumuman Tender Terbaru</h2>
+        <p>Berikut adalah daftar pengadaan barang dan jasa yang sedang dibuka. Referensi fitur LPSE: Pengumuman, bidding, dan evaluasi.</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama Pengadaan</th>
+                    <th>Deskripsi</th>
+                    <th>Deadline</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Pembelian Komputer</td>
+                    <td>50 unit laptop untuk kantor pemerintah</td>
+                    <td>15 Oktober 2023</td>
+                    <td>Dibuka</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Jasa Konsultasi IT</td>
+                    <td>Analisis dan pengembangan sistem informasi</td>
+                    <td>20 Oktober 2023</td>
+                    <td>Ditutup</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Pengadaan Alat Tulis</td>
+                    <td>1000 paket alat tulis kantor</td>
+                    <td>25 Oktober 2023</td>
+                    <td>Dibuka</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Pendaftaran Penyedia Barang/Jasa</h2>
+        <p>Daftar sebagai penyedia untuk mengikuti tender. Ini simulasi fitur LPSE untuk verifikasi penyedia.</p>
+        <form action="#" method="post"> <!-- Ganti # dengan URL Formspree jika mau kirim email: https://formspree.io/ -->
+            <label for="nama">Nama Lengkap:</label>
+            <input type="text" id="nama" name="nama" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="usaha">Jenis Usaha:</label>
+            <input type="text" id="usaha" name="usaha" placeholder="Contoh: PT Teknologi Indonesia" required>
+
+            <label for="alamat">Alamat:</label>
+            <input type="text" id="alamat" name="alamat" required>
+
+            <button type="submit">Daftar Sekarang</button>
+        </form>
+        <p><em>Catatan: Data ini tidak disimpan secara permanen. Untuk versi nyata, integrasikan dengan database atau layanan seperti Google Forms.</em></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Sistem Pengadaan Gratis. Referensi LPSE - Dibuat untuk Edukasi. Kunjungi <a href="https://lpse.lkpp.go.id" target="_blank">LPSE Resmi</a> untuk informasi lengkap.</p>
+    </footer>
+</body>
+</html>
